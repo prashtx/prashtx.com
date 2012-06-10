@@ -1,0 +1,3 @@
+/* Blueprint css */
+@import url("blueprint/screen.css") screen, projection;
+@import url("blueprint/print.css") print;
