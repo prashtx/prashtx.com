@@ -569,3 +569,17 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
+
+
+
+
+# Rewrite resume and LinkedIn urls
+RewriteRule ^resume$ resume.pdf
+RewriteRule ^resume/$ resume.pdf
+RewriteRule ^linkedin/?$ http://www.linkedin.com/pub/prashant-singh/1a/38b/646 [R=307]
+
+
+# Choose muni version based on cookie
+RewriteCond %{HTTP_COOKIE} muniversion=(dev|beta) [NC]
+RewriteRule ^muni([/?#].*)?$ muni%1$1 [NC,L]
+
