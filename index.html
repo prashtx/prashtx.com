@@ -12,15 +12,26 @@
          More info: h5bp.com/i/378 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title></title>
-    <meta name="description" content="">
+    <title>prashtx.com</title>
+    <meta name="description" content="Prashant Singh's personal site">
 
     <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="width=device-width">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
+    <!-- Using blueprint css instead of html5boilerplate
     <link rel="stylesheet" href="css/main.css">
+    -->
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <style type="text/css" media="screen">
+      p, table, hr, .box { margin-bottom:25px; }
+      .box p { margin-bottom:10px; }
+    </style>
+
 
     <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -35,23 +46,96 @@
     <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
     <!-- Add your site or application content here -->
+    <div class="container">
+      <div id="header" class="span-21 prepend-3 last">
+        <h1>prashtx.com <small>[Prashant Singh]</small></h1>
+      </div>
+      <!--
+      <div id="subheader" class="span-21 prepend-3 last">
+        <h2>Prashant Singh</h2>
+      </div>
+      -->
+
+      <hr>
+
+      <!-- Muni arrivals -->
+      <div class="span-8 prepend-3 append-1">
+        <h6>San Francisco Muni arrival time app</h6>
+        <p>
+        <a href="http://prashtx.com/muni">prashtx.com/<b>muni</b></a>
+        <br>
+        A streamlined mobile web app for viewing Muni arrial times.
+        </p>
+      </div>
+      <!-- mnemonic -->
+      <div class="span-8 prepend-1 append-3 last">
+        <h6>Mnemonic Major system helper</h6>
+        <p>
+        <a href="http://prashtx.com/mmapoc">prashtx.com/<b>mmapoc</b></a>
+        <br>
+        A proof of concept app to help with the Mnemonic major system. See Wikipedia article on the Mnemoni major system.
+        </p>
+      </div>
+
+      <!-- photos -->
+      <div class="span-8 prepend-3 append-1">
+        <h6>Photos</h6>
+        <p>
+        <a href="http://photo.prashtx.com"><b>photo</b>.prashtx.com</a>
+        <br>
+        A small selection of my photos
+        </p>
+      </div>
+      <!-- resume -->
+      <div class="span-8 prepend-1 append-3 last">
+        <h6>Resume</h6>
+        <p>
+        <a href="http://prashtx.com/resume">prashtx.com/<b>resume</b></a> (PDF)
+        <br>
+        Take a look at my resume.
+        </p>
+      </div>
+
+      <!-- github -->
+      <div class="span-8 prepend-3 append-1">
+        <h6>Github</h6>
+        <p>
+        <a href="http://prashtx.github.com">prashtx.<b>github</b>.com</a>
+        <br>
+        Check out some of my projects on github.
+        </p>
+      </div>
+      <!-- contact -->
+      <div class="span-8 prepend-1 append-3 last">
+        <h6>Contact</h6>
+        <p>
+        <a href="http://twitter.com/prashtx"><b>twitter</b>.com/prashtx</a>
+        <br>
+        <a href="http://prashtx.com/linkedin">prashtx.com/<b>linkedin</b></a>
+        <br>
+        Follow me on Twitter or contact me through LinkedIn.
+        </p>
+      </div>
+    </div>
 
 
     <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->
 
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <!--
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+      -->
 
     <!-- scripts concatenated and minified via build script -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/plugins.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
     <!-- end scripts -->
 
-    <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+    <!-- Asynchronous Google Analytics snippet.
          mathiasbynens.be/notes/async-analytics-snippet -->
     <script>
-        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        var _gaq=[['_setAccount','UA-11385981-2'],['_trackPageview']];
         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
