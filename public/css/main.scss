@@ -1,0 +1,9 @@
+/* Blueprint css */
+@import "blueprint/screen.css";
+/*
+@import "blueprint/screen.css" projection;
+@import "blueprint/print" print;
+*/
+
+p, table, hr, .box { margin-bottom:25px; }
+.box p { margin-bottom:10px; }
